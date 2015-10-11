@@ -1,0 +1,24 @@
+{
+  "name": "motorbike-database",
+  "version": "1.0.0",
+  "description": "A dataset of motorbikes",
+  "main": "source/main.coffee",
+  "scripts": {
+    "start": "coffee source/main.coffee",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "motorbike",
+    "dataset"
+  ],
+  "author": "Jérémie Drouet <jeremie.drouet@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^1.4.2",
+    "cheerio": "^0.19.0",
+    "coffee-script": "^1.10.0",
+    "csv-write-stream": "^1.0.0",
+    "debug": "^2.2.0",
+    "superagent": "^1.4.0"
+  }
+}
